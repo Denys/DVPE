@@ -3,6 +3,16 @@
 The main repository page gives the product overview and quick start. Detailed
 GUI operation is kept here:
 
+- [Tutorial index](../tutorials/README.md) — progressive, image-backed tasks
+  from first patch through Field mapping, reusable custom blocks, and design
+  tuning.
+- [Build your first patch](../tutorials/GETTING_STARTED_FIRST_PATCH.md) — start,
+  connect, inspect, save, reopen, and export a small graph.
+- [Create and reuse a custom block](../tutorials/CUSTOM_BLOCKS_AND_REUSE.md) —
+  choose the public interface, edit internals, and move a block as
+  `.dvpe-block`.
+- [Design modes and visual tuning](../tutorials/DESIGN_MODES_AND_VISUAL_TUNING.md)
+  — choose among the three designs and tune Inspector → Design safely.
 - [Block Diagram and Inspector guide](BLOCK_DIAGRAM_AND_INSPECTOR_GUIDE.md) —
   canvas workflow, connections, parameters, CV controls, design modes,
   persistence, export, keyboard shortcuts, and troubleshooting.

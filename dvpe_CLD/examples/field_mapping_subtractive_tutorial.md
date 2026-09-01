@@ -10,6 +10,11 @@
 
 ---
 
+![Field Mapping subtractive patch in DVPE](../../docs/images/tutorials/field-mapping-patch.png)
+
+*The included seven-block patch uses eight connections and keeps the audio and
+control paths visible while hardware mappings remain in Architecture.*
+
 ## What This Teaches
 
 The Field Mapping panel maps the fixed Daisy Field surface directly to patch parameters:
@@ -49,6 +54,11 @@ npm run dev
 5. Select **Field Mapping**.
 
 Open **Surface** for the visual Field layout, or **Matrix** for the full layer table. The matrix shows rows for `K1-K8` and `A1-B8`, with columns for **Normal**, **SW1**, **SW2**, and **SW1+SW2**.
+
+![Daisy Field Surface mapping view](../../docs/images/tutorials/field-mapping-surface.png)
+
+*Surface view follows the physical Field layout and is the quickest place to
+assign a single knob or key.*
 
 ---
 
@@ -100,6 +110,10 @@ Hold both `SW1` and `SW2`:
 
 When a held layer remaps a control, that physical control stops affecting its normal-layer target for that held state. For example, `K1` controls filter cutoff normally, but with `SW1` held it controls reverb damping instead.
 
+![Daisy Field Matrix with Normal and held-switch layers](../../docs/images/tutorials/field-mapping-matrix.png)
+
+*Matrix view makes all four precedence layers visible at once.*
+
 ---
 
 ## Edit A Mapping
@@ -131,3 +145,10 @@ Example: if a CV wire is connected to `FILTER.drive_cv`, the Field Mapping panel
 3. Remove the `B1 ACCENT -> FILTER.drive_cv` wire, then map a knob to `FILTER - Drive`.
 
 Keep mappings sparse at first. The useful pattern is: normal layer for performance controls, `SW1` for tone/detail, `SW2` for envelope ranges, and `SW1+SW2` for less common global controls.
+
+## Related Tutorials
+
+- [Build your first patch](../../docs/tutorials/GETTING_STARTED_FIRST_PATCH.md)
+- [Create and reuse a custom block](../../docs/tutorials/CUSTOM_BLOCKS_AND_REUSE.md)
+- [Design modes and visual tuning](../../docs/tutorials/DESIGN_MODES_AND_VISUAL_TUNING.md)
+- [Complete Block Diagram and Inspector guide](../../docs/user-guide/BLOCK_DIAGRAM_AND_INSPECTOR_GUIDE.md)

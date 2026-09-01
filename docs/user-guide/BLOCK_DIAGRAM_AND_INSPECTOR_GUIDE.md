@@ -152,7 +152,11 @@ Design changes affect the editor appearance, not the DSP graph or generated
 audio algorithm. Experimentator includes a lock that limits extreme glow
 ranges; keep it enabled for normal use.
 
-![Stitch Neon design with Inspector](../images/DVPE_Stitch_Neon_GUI.png)
+![Stitch Neon tuning controls in Inspector](../images/tutorials/stitch-neon-design-controls.png)
+
+The Experimentator panel exposes its wider glow, glass, and geometry range:
+
+![Experimentator tuning controls in Inspector](../images/tutorials/experimentator-design-controls.png)
 
 The retained earlier screenshot shows the calmer Original Style on a large
 Field Additive Synth graph:

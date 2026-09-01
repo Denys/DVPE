@@ -33,6 +33,25 @@ npm ci
 npm run dev -- --open
 ```
 
+## Learn DVPE by building
+
+The tutorials form a short path from first launch to reusable blocks, hardware
+mapping, and visual customization. Each one uses the current interface and can
+be completed independently.
+
+| Tutorial | Time | You will finish with |
+| --- | ---: | --- |
+| [Build your first patch](docs/tutorials/GETTING_STARTED_FIRST_PATCH.md) | 10 min | A saved source-to-output graph and a clear export boundary. |
+| [Map a patch to Daisy Field](dvpe_CLD/examples/field_mapping_subtractive_tutorial.md) | 10–15 min | A working four-layer Field control map based on the included example. |
+| [Create and reuse a custom block](docs/tutorials/CUSTOM_BLOCKS_AND_REUSE.md) | 15–20 min | A reusable block with chosen public ports and parameters. |
+| [Choose and tune an interface design](docs/tutorials/DESIGN_MODES_AND_VISUAL_TUNING.md) | 10 min | A readable Stitch Neon or Experimentator preset. |
+
+[Open the full tutorial index](docs/tutorials/README.md), or begin with the
+first patch tutorial. The completed Field example below shows the same basic
+source → processing → output flow used throughout the series.
+
+![Completed Field Mapping tutorial patch](docs/images/tutorials/field-mapping-patch.png)
+
 ## What works now
 
 - A catalog of 174 runtime blocks in 9 categories, with 329 parameters and
@@ -65,7 +84,8 @@ between them with the design button in the top bar.
 
 Stitch Neon and Experimentator are fine-tunable in **Inspector → Design**.
 Changes are applied live, and both modes support saved presets. See the
-[complete Block Diagram and Inspector guide](docs/user-guide/BLOCK_DIAGRAM_AND_INSPECTOR_GUIDE.md)
+[design tuning tutorial](docs/tutorials/DESIGN_MODES_AND_VISUAL_TUNING.md) or
+the [complete Block Diagram and Inspector guide](docs/user-guide/BLOCK_DIAGRAM_AND_INSPECTOR_GUIDE.md)
 for the full workflow, controls, shortcuts, export steps, and troubleshooting.
 
 ## Current state
@@ -96,10 +116,14 @@ workspaces, while adding verified onboarding and user documentation.
 
 ## Documentation
 
+- [Tutorial index](docs/tutorials/README.md)
+- [Build your first patch](docs/tutorials/GETTING_STARTED_FIRST_PATCH.md)
+- [Create and reuse custom blocks](docs/tutorials/CUSTOM_BLOCKS_AND_REUSE.md)
+- [Tune the three interface designs](docs/tutorials/DESIGN_MODES_AND_VISUAL_TUNING.md)
 - [User guide index](docs/user-guide/README.md)
 - [Block Diagram and Inspector guide](docs/user-guide/BLOCK_DIAGRAM_AND_INSPECTOR_GUIDE.md)
 - [Block catalog reference](docs/reference/DVPE_Diagram_Block_Reference.md)
-- [Example patch tutorial](dvpe_CLD/examples/field_mapping_subtractive_tutorial.md)
+- [Daisy Field Mapping example tutorial](dvpe_CLD/examples/field_mapping_subtractive_tutorial.md)
 
 ## Development
 
@@ -119,8 +143,8 @@ used by another application, stop that application before launching DVPE.
 ## Repository scope and privacy
 
 This is a clean sharing repository with a fresh history. It contains the
-application, tests, examples, user documentation, two approved GUI images, and
-CI/Pages workflows. Local settings, credentials, agent prompts and memory,
+application, tests, examples, user documentation, curated GUI and tutorial
+screenshots, and CI/Pages workflows. Local settings, credentials, agent prompts and memory,
 private design sources, development dashboards, archives, and external
 firmware workspaces are intentionally excluded.
 
