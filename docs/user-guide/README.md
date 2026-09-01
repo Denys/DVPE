@@ -8,6 +8,9 @@ GUI operation is kept here:
   tuning.
 - [Build your first patch](../tutorials/GETTING_STARTED_FIRST_PATCH.md) — start,
   connect, inspect, save, reopen, and export a small graph.
+- [Inspect, map hardware, and export](../tutorials/INSPECTOR_HARDWARE_AND_EXPORT.md)
+  — use Parameters and Connectivity, select a Daisy target, review standard
+  export, and configure optional Advanced Export safely.
 - [Create and reuse a custom block](../tutorials/CUSTOM_BLOCKS_AND_REUSE.md) —
   choose the public interface, edit internals, and move a block as
   `.dvpe-block`.

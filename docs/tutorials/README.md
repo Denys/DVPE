@@ -6,9 +6,10 @@ if the interface is new to you; otherwise choose the workflow you need.
 | Order | Tutorial | Best for | Result |
 | ---: | --- | --- | --- |
 | 1 | [Build your first patch](GETTING_STARTED_FIRST_PATCH.md) | First launch and basic graph editing | A saved oscillator-to-output `.dvpe` project. |
-| 2 | [Daisy Field Mapping](../../dvpe_CLD/examples/field_mapping_subtractive_tutorial.md) | Assigning the fixed Field surface without adding control blocks | A layered K1–K8 and A1–B8 performance map. |
-| 3 | [Create and reuse a custom block](CUSTOM_BLOCKS_AND_REUSE.md) | Packaging a useful subgraph for later patches | A library block that can be exported as `.dvpe-block`. |
-| 4 | [Design modes and visual tuning](DESIGN_MODES_AND_VISUAL_TUNING.md) | Choosing a readable editing or presentation style | A saved Stitch Neon or Experimentator design preset. |
+| 2 | [Inspect, map hardware, and export](INSPECTOR_HARDWARE_AND_EXPORT.md) | Verifying parameters, connectivity, platform, and generated files | A reviewed C++/Makefile package with a clear validation boundary. |
+| 3 | [Daisy Field Mapping](../../dvpe_CLD/examples/field_mapping_subtractive_tutorial.md) | Assigning the fixed Field surface without adding control blocks | A layered K1–K8 and A1–B8 performance map. |
+| 4 | [Create and reuse a custom block](CUSTOM_BLOCKS_AND_REUSE.md) | Packaging a useful subgraph for later patches | A library block that can be exported as `.dvpe-block`. |
+| 5 | [Design modes and visual tuning](DESIGN_MODES_AND_VISUAL_TUNING.md) | Choosing a readable editing or presentation style | A saved Stitch Neon or Experimentator design preset. |
 
 For complete GUI behavior, shortcuts, connectivity rules, persistence, and
 export details, use the

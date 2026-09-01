@@ -90,10 +90,12 @@ DVPE also keeps local autosave and recent-project metadata, but the downloaded
 
 ## 7. Export the source package
 
-Select **Export C++** and inspect the downloaded ZIP. It contains Daisy-oriented
-C++, headers, and a Makefile. Treat this as generated source: review it, compile
-it in the appropriate Daisy toolchain, and validate the result on the intended
-hardware before depending on it.
+Select **Export C++**, review the preview, and download the ZIP. In the browser
+build it contains Daisy-oriented C++ source and a Makefile. Treat this as
+generated source: review it, compile it in the appropriate Daisy toolchain, and
+validate the result on the intended hardware before depending on it. The
+[Inspector, Hardware, and Export tutorial](INSPECTOR_HARDWARE_AND_EXPORT.md)
+covers the complete review and optional Advanced Export workflow.
 
 ## Completion check
 
@@ -103,6 +105,7 @@ hardware before depending on it.
 - Export produces a ZIP, with no claim yet that it has compiled or run on
   hardware.
 
-Next: [map controls to Daisy Field](../../dvpe_CLD/examples/field_mapping_subtractive_tutorial.md),
+Next: [inspect, map hardware, and export](INSPECTOR_HARDWARE_AND_EXPORT.md),
+[map controls to Daisy Field](../../dvpe_CLD/examples/field_mapping_subtractive_tutorial.md),
 [package a reusable custom block](CUSTOM_BLOCKS_AND_REUSE.md), or read the
 [complete GUI guide](../user-guide/BLOCK_DIAGRAM_AND_INSPECTOR_GUIDE.md).

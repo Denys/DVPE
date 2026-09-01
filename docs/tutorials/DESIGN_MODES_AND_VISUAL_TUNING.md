@@ -72,4 +72,5 @@ If any item fails, reduce glow/transparency or increase contrast before saving.
 
 Next: [build a first patch](GETTING_STARTED_FIRST_PATCH.md), explore the
 [Daisy Field Mapping tutorial](../../dvpe_CLD/examples/field_mapping_subtractive_tutorial.md),
+review [Inspector, Hardware, and Export](INSPECTOR_HARDWARE_AND_EXPORT.md),
 or read the [complete GUI guide](../user-guide/BLOCK_DIAGRAM_AND_INSPECTOR_GUIDE.md).
