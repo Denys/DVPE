@@ -91,5 +91,6 @@ small test project before relying on the block in a larger design.
 - Generated C++ is still reviewed and compiled externally; editor validation is
   not hardware validation.
 
-Next: [tune the interface design](DESIGN_MODES_AND_VISUAL_TUNING.md) or consult
-the [Block Diagram and Inspector guide](../user-guide/BLOCK_DIAGRAM_AND_INSPECTOR_GUIDE.md).
+Next: [inspect, map hardware, and export](INSPECTOR_HARDWARE_AND_EXPORT.md),
+[tune the interface design](DESIGN_MODES_AND_VISUAL_TUNING.md), or consult the
+[Block Diagram and Inspector guide](../user-guide/BLOCK_DIAGRAM_AND_INSPECTOR_GUIDE.md).

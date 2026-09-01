@@ -35,13 +35,14 @@ npm run dev -- --open
 
 ## Learn DVPE by building
 
-The tutorials form a short path from first launch to reusable blocks, hardware
-mapping, and visual customization. Each one uses the current interface and can
-be completed independently.
+The tutorials form a short path from first launch through Inspector review,
+hardware mapping, export, reusable blocks, and visual customization. Each one
+uses the current interface and can be completed independently.
 
 | Tutorial | Time | You will finish with |
 | --- | ---: | --- |
 | [Build your first patch](docs/tutorials/GETTING_STARTED_FIRST_PATCH.md) | 10 min | A saved source-to-output graph and a clear export boundary. |
+| [Inspect, map hardware, and export](docs/tutorials/INSPECTOR_HARDWARE_AND_EXPORT.md) | 15–20 min | A reviewed graph, stored Daisy target, and C++/Makefile package. |
 | [Map a patch to Daisy Field](dvpe_CLD/examples/field_mapping_subtractive_tutorial.md) | 10–15 min | A working four-layer Field control map based on the included example. |
 | [Create and reuse a custom block](docs/tutorials/CUSTOM_BLOCKS_AND_REUSE.md) | 15–20 min | A reusable block with chosen public ports and parameters. |
 | [Choose and tune an interface design](docs/tutorials/DESIGN_MODES_AND_VISUAL_TUNING.md) | 10 min | A readable Stitch Neon or Experimentator preset. |
@@ -51,6 +52,24 @@ first patch tutorial. The completed Field example below shows the same basic
 source → processing → output flow used throughout the series.
 
 ![Completed Field Mapping tutorial patch](docs/images/tutorials/field-mapping-patch.png)
+
+## Inspect, target, and export
+
+The normal handoff is **Inspector → Hardware → Export C++**. **Advanced** is an
+optional external-AI review pass, not a replacement for compilation or hardware
+validation. Follow the complete
+[Inspector, Hardware, and Export tutorial](docs/tutorials/INSPECTOR_HARDWARE_AND_EXPORT.md)
+for the step-by-step workflow.
+
+| Inspector | Hardware |
+| --- | --- |
+| Edit the selected block's identity and parameters, enable CV inputs, and trace every accepted connection. | Select Daisy Seed, Pod, or Field; then review pin, peripheral, and Field-surface mappings stored with the project. |
+| ![Inspector parameters and connectivity](docs/images/tutorials/inspector-parameters-connectivity.png) | ![Hardware platform configuration](docs/images/tutorials/hardware-platform-configuration.png) |
+
+| Export C++ | Advanced |
+| --- | --- |
+| Review the target header and generated callback before downloading the C++ source and Makefile ZIP. | In Experimentator, configure provider, model, and browser-only API key under **Inspector → Design → AI Export Settings**, then compare the raw and corrected previews. |
+| ![Generated C++ preview for Daisy Field](docs/images/tutorials/export-cpp-preview.png) | ![Advanced Export settings with no API key stored](docs/images/tutorials/advanced-export-settings.png) |
 
 ## What works now
 
@@ -64,7 +83,7 @@ source → processing → output flow used throughout the series.
   modules, and port binding.
 - `.dvpe` save/load, autosave recovery, recent projects, and embedded custom
   block definitions.
-- Daisy-oriented C++, headers, and Makefile generation, downloaded as a ZIP.
+- Daisy-oriented C++ source and Makefile generation, downloaded as a ZIP.
 - Hardware/Field mapping, conflict checks, polyphonic code paths, and an
   optional Advanced Export pass using a user-supplied AI API key.
 
@@ -118,6 +137,7 @@ workspaces, while adding verified onboarding and user documentation.
 
 - [Tutorial index](docs/tutorials/README.md)
 - [Build your first patch](docs/tutorials/GETTING_STARTED_FIRST_PATCH.md)
+- [Inspect, map hardware, and export](docs/tutorials/INSPECTOR_HARDWARE_AND_EXPORT.md)
 - [Create and reuse custom blocks](docs/tutorials/CUSTOM_BLOCKS_AND_REUSE.md)
 - [Tune the three interface designs](docs/tutorials/DESIGN_MODES_AND_VISUAL_TUNING.md)
 - [User guide index](docs/user-guide/README.md)

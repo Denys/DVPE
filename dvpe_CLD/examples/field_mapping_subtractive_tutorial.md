@@ -149,6 +149,7 @@ Keep mappings sparse at first. The useful pattern is: normal layer for performan
 ## Related Tutorials
 
 - [Build your first patch](../../docs/tutorials/GETTING_STARTED_FIRST_PATCH.md)
+- [Inspector, Hardware, and Export](../../docs/tutorials/INSPECTOR_HARDWARE_AND_EXPORT.md)
 - [Create and reuse a custom block](../../docs/tutorials/CUSTOM_BLOCKS_AND_REUSE.md)
 - [Design modes and visual tuning](../../docs/tutorials/DESIGN_MODES_AND_VISUAL_TUNING.md)
 - [Complete Block Diagram and Inspector guide](../../docs/user-guide/BLOCK_DIAGRAM_AND_INSPECTOR_GUIDE.md)
